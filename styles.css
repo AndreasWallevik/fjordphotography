@@ -145,6 +145,12 @@ button:hover {
     width: 100% !important;
     justify-content: flex-start !important;
   }
+  header img[alt="Museum Logo"] {
+    max-width: 80vw !important;
+  }
+  header div {
+    font-size: 0.95rem !important;
+  }
 }
 .slideshow-btn {
   background: #2d3e50;
@@ -193,4 +199,15 @@ button:hover {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+a img:hover, a:focus img {
+  box-shadow: 0 4px 24px rgba(58, 93, 124, 0.18), 0 2px 8px rgba(0,0,0,0.12);
+  transform: scale(1.04);
+  transition: box-shadow 0.2s, transform 0.2s;
+  outline: none;
+}
+
+a img {
+  transition: box-shadow 0.2s, transform 0.2s;
 } 

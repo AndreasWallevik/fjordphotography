@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', Arial, sans-serif;
-  background: #f7f7f7;
+  background: linear-gradient(135deg, #e0f3ff 0%, #bcd2e8 40%, #f0f2f5 70%, #e5e7eb 100%);
+  background-size: 200% 200%;
+  animation: fjordWaves 12s ease-in-out infinite;
   color: #222;
   margin: 0;
   padding: 0;
@@ -128,6 +130,21 @@ button:hover {
 @media (max-width: 600px) {
   .container { padding: 1rem; }
   header h1 { font-size: 1.5rem; }
+  .side-section {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .side-section img {
+    max-width: 90vw !important;
+    height: auto !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    display: block;
+  }
+  .side-section > div[style*='align-items: center'] {
+    width: 100% !important;
+    justify-content: flex-start !important;
+  }
 }
 .slideshow-btn {
   background: #2d3e50;
@@ -158,4 +175,22 @@ button:hover {
   100% {
     background-position: 0% 50%;
   }
+}
+
+@keyframes fjordWaves {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.side-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 } 

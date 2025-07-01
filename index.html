@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Photographer By The Fjord</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Museum Logo" style="max-width: 120px; margin-bottom: 1rem;">
+    <h1>The Photographer By The Fjord</h1>
+  </header>
+  <div class="container">
+    <div class="slideshow">
+      <img id="slideshow-img-1" src="images/IMG_4137.jpg" alt="Slideshow image" style="max-width: 100%; max-height: 380px; border-radius: 8px; margin: 0 auto; box-shadow: 0 2px 8px rgba(0,0,0,0.07); display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100%; height: 100%; object-fit: contain; opacity: 1; transition: opacity 0.8s ease;">
+      <img id="slideshow-img-2" src="images/IMG_4138.jpg" alt="Slideshow image" style="max-width: 100%; max-height: 380px; border-radius: 8px; margin: 0 auto; box-shadow: 0 2px 8px rgba(0,0,0,0.07); display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.8s ease;">
+    </div>
+    <div class="section" style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start;">
+      <div style="flex: 2 1 300px; min-width: 220px;">
+        <p>The museum in Vallavik exhibits a selected collection<br>
+of the photography works by Anders P. Wallevik.<br>
+It is open to visitors during spring and summer.</p>
+        <p>Anders P. Wallevik was born on September 12th, 1874.<br>
+Throughout his life, he worked as a mail opener, farmer, and freighter.<br>
+However, most importantly, Anders was a photographer.</p>
+        <p>Electricity didn't exist in Vallevik before 1958, so Anders' darkroom lamp ran on paraffin and was made purposeful by glass that was painted red.<br>
+His darkroom was the living room in the oldest building on the Vallevik-farm; "Gamlestova".</p>
+        <p>Despite these limitations, the collection of photographs from Anders P. Wallevik consists of sharp, well-composed photographic masterpieces.</p>
+        <p>Then, as now, the equipment one uses does not guarantee artistic quality.<br>
+Rather, the results are provided by the patience, artistic ambitions, and sheer craftsmanship of the artist.</p>
+        <p>Anders' lessons and philosophy to photography<br>
+remain true to this day: wait for the correct light,<br>
+make the most of the situation you are in,<br>
+and try to frame the beauty before you<br>
+perfectly within the borders of your blank canvas.</p>
+        <p>The museum pays homage to a master craftsman<br>
+and provides insight into a past<br>
+that is simultaneously both near and far away.</p>
+        <p>Welcome.</p>
+        <p><strong>Price for entry: 100 NOK,-</strong></p>
+      </div>
+      <div style="flex: 1 1 180px; min-width: 160px; display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+        <img src="images/picture of musuem sign.jpg" alt="Museum Sign" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+        <img src="images/picture of museum.jpg" alt="Picture of Museum Building" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+      </div>
+    </div>
+    <div class="section">
+      <h2>Booking Request</h2>
+      <p>Send a booking request for a cabin + visit to the museum (package deal):</p>
+      <form action="https://formspree.io/f/manjvvep" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your message (dates, number of guests, etc.)" required></textarea>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit">Send Booking Request</button>
+      </form>
+    </div>
+    <div class="contact">
+      <p>Contact: <a href="mailto:fotografenvedfjorden@gmail.com">fotografenvedfjorden@gmail.com</a></p>
+      <p>Family cabin rental: <a href="https://vallevik.no" target="_blank">vallevik.no</a></p>
+    </div>
+    <div class="donate">
+      <p>Support the museum:</p>
+      <a href="https://www.paypal.com/paypalme/fotografenvedfjorden" target="_blank">Donate via PayPal</a>
+    </div>
+    <div class="side-section" style="display: flex; gap: 1.5rem; align-items: flex-start;">
+      <div style="flex: 2 1 300px;">
+        <h2>Fjorden var vegen​ (Book)</h2>
+        <p><strong>Photography Pioneer Anders Paulsson Wallevik</strong></p>
+        <p>The photography pioneer Anders Paulsson Wallevik left behind a collection of three to four thousand glass plate photographs, mostly taken between 1905 and 1940. This book documents events and conditions from a time when the fjord was still the main route for many, capturing life on land and sea, as well as communication and trade links from the west coast to the north of Norway. The images have a personal touch, offering insight into the daily lives of ordinary people.</p>
+        <p><strong>The book can be purchased at the museum (400,-)</strong></p>
+      </div>
+      <div style="flex: 1 1 120px; min-width: 100px; display: flex; align-items: center; padding-top: 20px;">
+        <img src="images/picture of book.jpg" alt="Book: Fjorden var vegen" style="max-width: 180px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+      </div>
+    </div>
+    <div class="section">
+      <div class="map-image-wrapper" style="padding: 20px 0; display: flex; justify-content: center; align-items: center;">
+        <img src="images/map of vallavik.png" alt="Map of Vallavik Museum Location" style="width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); background: #d0d0d0;">
+      </div>
+      <p>The museum is located next to "Gamlestova" and is highlighted on the map in yellow. Walking distance from all cabins (5 minutes).</p>
+    </div>
+    <div class="section" style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; text-align: left;">
+      <div>
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; color: #2d3e50; font-weight: 600; letter-spacing: 0.5px; display: flex; align-items: center; gap: 0.5rem;">Follow us on Instagram <span style='font-size:1.3em;'>&#8594;</span></h3>
+      </div>
+      <a href="http://instagram.com/fjordcabins" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram">
+        <img src="images/instagram image.png" alt="Instagram Visual" style="max-width: 180px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); margin-top: 1rem;">
+      </a>
+    </div>
+  </div>
+  <script>
+    const images = [
+      'images/IMG_4137.jpg',
+      'images/IMG_4138.jpg',
+      'images/IMG_4139.jpg',
+      'images/IMG_4140.jpg',
+      'images/IMG_4141.jpg',
+      'images/IMG_4142.jpg',
+      'images/IMG_4143.jpg'
+    ];
+    let current = 0;
+    let next = 1;
+    const img1 = document.getElementById('slideshow-img-1');
+    const img2 = document.getElementById('slideshow-img-2');
+    let showingFirst = true;
+    function crossfade() {
+      if (showingFirst) {
+        img2.src = images[next];
+        img2.style.opacity = 1;
+        img1.style.opacity = 0;
+      } else {
+        img1.src = images[next];
+        img1.style.opacity = 1;
+        img2.style.opacity = 0;
+      }
+      current = next;
+      next = (next + 1) % images.length;
+      showingFirst = !showingFirst;
+    }
+    setInterval(crossfade, 3000);
+  </script>
+</body>
+</html>

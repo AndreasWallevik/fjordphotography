@@ -160,8 +160,8 @@ button:hover {
   .fjord-heading-bg {
     max-width: 98vw;
   }
-  header div {
-    font-size: 0.95rem !important;
+  header div[style*='font-size: 1.05rem'] {
+    font-size: 0.85rem !important;
   }
 }
 .slideshow-btn {

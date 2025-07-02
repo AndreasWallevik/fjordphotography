@@ -147,8 +147,18 @@ button:hover {
     width: 100% !important;
     justify-content: flex-start !important;
   }
+  header img[alt="Fjordphoto Logo Blue"] {
+    max-width: 32vw !important;
+    height: auto !important;
+    min-width: 60px;
+  }
   header img[alt="Museum Logo"] {
-    max-width: 80vw !important;
+    max-width: 54vw !important;
+    height: auto !important;
+    min-width: 90px;
+  }
+  .fjord-heading-bg {
+    max-width: 98vw;
   }
   header div {
     font-size: 0.95rem !important;

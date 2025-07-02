@@ -41,6 +41,8 @@ header h1 {
   font-size: 1.2rem;
   position: relative;
   overflow: hidden;
+  padding-bottom: calc(2.2rem + 10px);
+  padding-top: 5px;
 }
 #slideshow-img-1, #slideshow-img-2 {
   width: 100%;
@@ -210,4 +212,35 @@ a img:hover, a:focus img {
 
 a img {
   transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.fjord-heading-bg {
+  background: #1a2533;
+  border-radius: 8px 8px 0 0;
+  margin: 0 auto -8px auto;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.fjord-heading {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 1.1rem 0 1.1rem 0;
+  text-align: center;
+}
+.fjord-heading-animated {
+  color: #7a7d81;
+}
+.fjord-heading-animated {
+  color: #f7f7f7;
+  animation: fjordTextFade 2.5s ease-in-out infinite alternate;
+}
+@keyframes fjordTextFade {
+  0% { color: #fff; }
+  100% { color: #e5e7eb; }
 } 
